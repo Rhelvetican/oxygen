@@ -8,25 +8,25 @@
 - Oxygen has 3 types of Declaration:
     - Constant declaration.
 
-```c
-    const num1: int = 5                 //Type annotation can be explicitly declared.
-    const num2 = 5                      //Types are inferred, so no type annotation is required.
-```
+    ```c
+        const num1: int = 5                 //Type annotation can be explicitly declared.
+        const num2 = 5                      //Types are inferred, so no type annotation is required.
+    ```
 
     - Immutable Variable declaration.
         - By default, all variables are immutable.
 
-```js
-    var v1: str = "I am a string!"      //Type annotation can be explicitly declared.
-    var v2 = "I am also a string!"      //Types are inferred, so no type annotation is required.
-```
+    ```js
+        var v1: str = "I am a string!"      //Type annotation can be explicitly declared.
+        var v2 = "I am also a string!"      //Types are inferred, so no type annotation is required.
+    ```
 
     - Mutable Variable declaration.
 
-```rust
-    mut m1: str = "I am a string!"      //Type annotation can be explicitly declared.
-    mut v2 = "I am also a string!"      //Types are inferred, so no type annotation is required.
-```
+    ```rust
+        mut m1: str = "I am a string!"      //Type annotation can be explicitly declared.
+        mut v2 = "I am also a string!"      //Types are inferred, so no type annotation is required.
+    ```
 
 PS: Declare a comment with `//`!
 
